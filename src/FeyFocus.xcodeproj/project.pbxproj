@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E62C7982B68028500302B91 /* FeyFocusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E62C7972B68028500302B91 /* FeyFocusApp.swift */; };
+		7E62C79A2B68028500302B91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E62C7992B68028500302B91 /* ContentView.swift */; };
+		7E62C79C2B68028700302B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E62C79B2B68028700302B91 /* Assets.xcassets */; };
+		7E62C79F2B68028700302B91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E62C79E2B68028700302B91 /* Preview Assets.xcassets */; };
+		7E62C7AA2B68028700302B91 /* FeyFocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E62C7A92B68028700302B91 /* FeyFocusTests.swift */; };
+		7E62C7B42B68028700302B91 /* FeyFocusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E62C7B32B68028700302B91 /* FeyFocusUITests.swift */; };
+		7E62C7B62B68028700302B91 /* FeyFocusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E62C7B52B68028700302B91 /* FeyFocusUITestsLaunchTests.swift */; };
+		7EE1EA712BCC26F0004DB6B6 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1EA702BCC26F0004DB6B6 /* SQLiteManager.swift */; };
+		7EE1EA732BCC295D004DB6B6 /* OpenFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1EA722BCC295D004DB6B6 /* OpenFiles.swift */; };
+		7EE1EA762BCC29FB004DB6B6 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 7EE1EA752BCC29FB004DB6B6 /* SQLite */; };
+		7EF9B90D2BA20BA2005919A1 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF9B90C2BA20BA2005919A1 /* Property List.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E62C7A62B68028700302B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E62C78C2B68028500302B91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E62C7932B68028500302B91;
+			remoteInfo = FeyFocus;
+		};
+		7E62C7B02B68028700302B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E62C78C2B68028500302B91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E62C7932B68028500302B91;
+			remoteInfo = FeyFocus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E56EDCB2BA0A10E00F15235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7E62C7942B68028500302B91 /* FeyFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeyFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E62C7972B68028500302B91 /* FeyFocusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeyFocusApp.swift; sourceTree = "<group>"; };
+		7E62C7992B68028500302B91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E62C79B2B68028700302B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E62C79E2B68028700302B91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E62C7A02B68028700302B91 /* FeyFocus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FeyFocus.entitlements; sourceTree = "<group>"; };
+		7E62C7A52B68028700302B91 /* FeyFocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeyFocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E62C7A92B68028700302B91 /* FeyFocusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeyFocusTests.swift; sourceTree = "<group>"; };
+		7E62C7AF2B68028700302B91 /* FeyFocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeyFocusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E62C7B32B68028700302B91 /* FeyFocusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeyFocusUITests.swift; sourceTree = "<group>"; };
+		7E62C7B52B68028700302B91 /* FeyFocusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeyFocusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EE1EA702BCC26F0004DB6B6 /* SQLiteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		7EE1EA722BCC295D004DB6B6 /* OpenFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFiles.swift; sourceTree = "<group>"; };
+		7EF9B90C2BA20BA2005919A1 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E62C7912B68028500302B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE1EA762BCC29FB004DB6B6 /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E62C7A22B68028700302B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E62C7AC2B68028700302B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E62C78B2B68028500302B91 = {
+			isa = PBXGroup;
+			children = (
+				7E62C7962B68028500302B91 /* FeyFocus */,
+				7E62C7A82B68028700302B91 /* FeyFocusTests */,
+				7E62C7B22B68028700302B91 /* FeyFocusUITests */,
+				7E62C7952B68028500302B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E62C7952B68028500302B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E62C7942B68028500302B91 /* FeyFocus.app */,
+				7E62C7A52B68028700302B91 /* FeyFocusTests.xctest */,
+				7E62C7AF2B68028700302B91 /* FeyFocusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E62C7962B68028500302B91 /* FeyFocus */ = {
+			isa = PBXGroup;
+			children = (
+				7E56EDCB2BA0A10E00F15235 /* Info.plist */,
+				7E62C7972B68028500302B91 /* FeyFocusApp.swift */,
+				7E62C7992B68028500302B91 /* ContentView.swift */,
+				7E62C79B2B68028700302B91 /* Assets.xcassets */,
+				7E62C7A02B68028700302B91 /* FeyFocus.entitlements */,
+				7E62C79D2B68028700302B91 /* Preview Content */,
+				7EF9B90C2BA20BA2005919A1 /* Property List.plist */,
+				7EE1EA702BCC26F0004DB6B6 /* SQLiteManager.swift */,
+				7EE1EA722BCC295D004DB6B6 /* OpenFiles.swift */,
+			);
+			path = FeyFocus;
+			sourceTree = "<group>";
+		};
+		7E62C79D2B68028700302B91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7E62C79E2B68028700302B91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E62C7A82B68028700302B91 /* FeyFocusTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E62C7A92B68028700302B91 /* FeyFocusTests.swift */,
+			);
+			path = FeyFocusTests;
+			sourceTree = "<group>";
+		};
+		7E62C7B22B68028700302B91 /* FeyFocusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E62C7B32B68028700302B91 /* FeyFocusUITests.swift */,
+				7E62C7B52B68028700302B91 /* FeyFocusUITestsLaunchTests.swift */,
+			);
+			path = FeyFocusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E62C7932B68028500302B91 /* FeyFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E62C7B92B68028700302B91 /* Build configuration list for PBXNativeTarget "FeyFocus" */;
+			buildPhases = (
+				7E62C7902B68028500302B91 /* Sources */,
+				7E62C7912B68028500302B91 /* Frameworks */,
+				7E62C7922B68028500302B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeyFocus;
+			packageProductDependencies = (
+				7EE1EA752BCC29FB004DB6B6 /* SQLite */,
+			);
+			productName = FeyFocus;
+			productReference = 7E62C7942B68028500302B91 /* FeyFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E62C7A42B68028700302B91 /* FeyFocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E62C7BC2B68028700302B91 /* Build configuration list for PBXNativeTarget "FeyFocusTests" */;
+			buildPhases = (
+				7E62C7A12B68028700302B91 /* Sources */,
+				7E62C7A22B68028700302B91 /* Frameworks */,
+				7E62C7A32B68028700302B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E62C7A72B68028700302B91 /* PBXTargetDependency */,
+			);
+			name = FeyFocusTests;
+			productName = FeyFocusTests;
+			productReference = 7E62C7A52B68028700302B91 /* FeyFocusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E62C7AE2B68028700302B91 /* FeyFocusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E62C7BF2B68028700302B91 /* Build configuration list for PBXNativeTarget "FeyFocusUITests" */;
+			buildPhases = (
+				7E62C7AB2B68028700302B91 /* Sources */,
+				7E62C7AC2B68028700302B91 /* Frameworks */,
+				7E62C7AD2B68028700302B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E62C7B12B68028700302B91 /* PBXTargetDependency */,
+			);
+			name = FeyFocusUITests;
+			productName = FeyFocusUITests;
+			productReference = 7E62C7AF2B68028700302B91 /* FeyFocusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E62C78C2B68028500302B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7E62C7932B68028500302B91 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7E62C7A42B68028700302B91 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7E62C7932B68028500302B91;
+					};
+					7E62C7AE2B68028700302B91 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7E62C7932B68028500302B91;
+					};
+				};
+			};
+			buildConfigurationList = 7E62C78F2B68028500302B91 /* Build configuration list for PBXProject "FeyFocus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E62C78B2B68028500302B91;
+			packageReferences = (
+				7EE1EA742BCC29FB004DB6B6 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
+			productRefGroup = 7E62C7952B68028500302B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E62C7932B68028500302B91 /* FeyFocus */,
+				7E62C7A42B68028700302B91 /* FeyFocusTests */,
+				7E62C7AE2B68028700302B91 /* FeyFocusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E62C7922B68028500302B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF9B90D2BA20BA2005919A1 /* Property List.plist in Resources */,
+				7E62C79F2B68028700302B91 /* Preview Assets.xcassets in Resources */,
+				7E62C79C2B68028700302B91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E62C7A32B68028700302B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E62C7AD2B68028700302B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E62C7902B68028500302B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE1EA712BCC26F0004DB6B6 /* SQLiteManager.swift in Sources */,
+				7E62C79A2B68028500302B91 /* ContentView.swift in Sources */,
+				7E62C7982B68028500302B91 /* FeyFocusApp.swift in Sources */,
+				7EE1EA732BCC295D004DB6B6 /* OpenFiles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E62C7A12B68028700302B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E62C7AA2B68028700302B91 /* FeyFocusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E62C7AB2B68028700302B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E62C7B62B68028700302B91 /* FeyFocusUITestsLaunchTests.swift in Sources */,
+				7E62C7B42B68028700302B91 /* FeyFocusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E62C7A72B68028700302B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E62C7932B68028500302B91 /* FeyFocus */;
+			targetProxy = 7E62C7A62B68028700302B91 /* PBXContainerItemProxy */;
+		};
+		7E62C7B12B68028700302B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E62C7932B68028500302B91 /* FeyFocus */;
+			targetProxy = 7E62C7B02B68028700302B91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E62C7B72B68028700302B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E62C7B82B68028700302B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7E62C7BA2B68028700302B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FeyFocus/FeyFocus.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FeyFocus/Preview Content\"";
+				DEVELOPMENT_TEAM = MM2X8ABHUB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeyFocus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FeyFocus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Applescript to retrieve open files";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricgull.FeyFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7E62C7BB2B68028700302B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FeyFocus/FeyFocus.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FeyFocus/Preview Content\"";
+				DEVELOPMENT_TEAM = MM2X8ABHUB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeyFocus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FeyFocus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Applescript to retrieve open files";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricgull.FeyFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7E62C7BD2B68028700302B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricgull.FeyFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeyFocus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FeyFocus";
+			};
+			name = Debug;
+		};
+		7E62C7BE2B68028700302B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricgull.FeyFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeyFocus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FeyFocus";
+			};
+			name = Release;
+		};
+		7E62C7C02B68028700302B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricgull.FeyFocusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FeyFocus;
+			};
+			name = Debug;
+		};
+		7E62C7C12B68028700302B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricgull.FeyFocusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FeyFocus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E62C78F2B68028500302B91 /* Build configuration list for PBXProject "FeyFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E62C7B72B68028700302B91 /* Debug */,
+				7E62C7B82B68028700302B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E62C7B92B68028700302B91 /* Build configuration list for PBXNativeTarget "FeyFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E62C7BA2B68028700302B91 /* Debug */,
+				7E62C7BB2B68028700302B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E62C7BC2B68028700302B91 /* Build configuration list for PBXNativeTarget "FeyFocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E62C7BD2B68028700302B91 /* Debug */,
+				7E62C7BE2B68028700302B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E62C7BF2B68028700302B91 /* Build configuration list for PBXNativeTarget "FeyFocusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E62C7C02B68028700302B91 /* Debug */,
+				7E62C7C12B68028700302B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7EE1EA742BCC29FB004DB6B6 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7EE1EA752BCC29FB004DB6B6 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EE1EA742BCC29FB004DB6B6 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7E62C78C2B68028500302B91 /* Project object */;
+}
